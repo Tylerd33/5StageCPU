@@ -1,0 +1,25 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/Tyler/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 9b1f69a55c2c462a9df73df73a65680b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot TestBench_func_impl xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ealuc' [C:/Users/Tyler/Documents/CMPEN331Lab3TylerRossi/CMPEN331Lab3TylerRossi.srcs/sim_1/new/TestBench.v:33]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.IDEXE
+Compiling module xil_defaultlib.IFID
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1(INIT=2'b01)
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.Datapath
+Compiling module xil_defaultlib.TestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_func_impl

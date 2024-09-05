@@ -1,0 +1,282 @@
+
+*** Running vivado
+    with args -log Datapath.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Datapath.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source Datapath.tcl -notrace
+Command: synth_design -top Datapath -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22792
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Datapath' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:378]
+INFO: [Synth 8-6157] synthesizing module 'ProgramCounter' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'ProgramCounter' (1#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:44]
+INFO: [Synth 8-6157] synthesizing module 'PCadder' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'PCadder' (2#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:59]
+INFO: [Synth 8-6157] synthesizing module 'InstructionMemory' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'InstructionMemory' (3#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IFID' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'IFID' (4#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:70]
+INFO: [Synth 8-6157] synthesizing module 'ControlUnit' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:80]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:100]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:98]
+INFO: [Synth 8-6155] done synthesizing module 'ControlUnit' (5#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:80]
+INFO: [Synth 8-6157] synthesizing module 'RegrtMult' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'RegrtMult' (6#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:127]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:141]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:167]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:141]
+INFO: [Synth 8-6157] synthesizing module 'ImmediateExtender' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:176]
+INFO: [Synth 8-6155] done synthesizing module 'ImmediateExtender' (8#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:176]
+INFO: [Synth 8-6157] synthesizing module 'IDEXE' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:188]
+INFO: [Synth 8-251] imm: 32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:219]
+INFO: [Synth 8-6155] done synthesizing module 'IDEXE' (9#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:188]
+INFO: [Synth 8-6157] synthesizing module 'AluMux' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:223]
+INFO: [Synth 8-6155] done synthesizing module 'AluMux' (10#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:223]
+INFO: [Synth 8-6157] synthesizing module 'Alu' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:243]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:251]
+INFO: [Synth 8-6155] done synthesizing module 'Alu' (11#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:243]
+INFO: [Synth 8-6157] synthesizing module 'EXEMEM' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:307]
+INFO: [Synth 8-6155] done synthesizing module 'EXEMEM' (12#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:307]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:271]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (13#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:271]
+INFO: [Synth 8-6157] synthesizing module 'MEMWB' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:334]
+INFO: [Synth 8-6155] done synthesizing module 'MEMWB' (14#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:334]
+INFO: [Synth 8-6157] synthesizing module 'WbMux' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:358]
+INFO: [Synth 8-6155] done synthesizing module 'WbMux' (15#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:358]
+INFO: [Synth 8-6155] done synthesizing module 'Datapath' (16#1) [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:378]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'b_reg' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:234]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [C:/Users/Tyler/Documents/Lab5V3/Lab5V3.srcs/sources_1/new/MAIN.v:254]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 9     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   6 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 3     
+	   5 Input   32 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 2     
+	   5 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3971] The signal "Datapath/rf_dp/registers_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal "Datapath/rf_dp/registers_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+-------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object        | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Datapath    | dm_dp/dmemory_reg | 64 x 32(READ_FIRST)    | W |   | 64 x 32(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+-------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+-------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object        | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Datapath    | dm_dp/dmemory_reg | 64 x 32(READ_FIRST)    | W |   | 64 x 32(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+-------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance dm_dp/dmemory_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance rf_dp/registers_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance rf_dp/registers_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |    16|
+|3     |LUT1     |     3|
+|4     |LUT2     |     7|
+|5     |LUT3     |    62|
+|6     |LUT4     |     7|
+|7     |LUT5     |    32|
+|8     |RAMB18E1 |     3|
+|9     |FDRE     |   152|
+|10    |LD       |    32|
+|11    |IBUF     |     1|
+|12    |OBUF     |   316|
++------+---------+------+
+
+Report Instance Areas: 
++------+--------------+---------------+------+
+|      |Instance      |Module         |Cells |
++------+--------------+---------------+------+
+|1     |top           |               |   633|
+|2     |  dm_dp       |DataMemory     |     1|
+|3     |  alu_dp      |Alu            |    72|
+|4     |  alumux_dp   |AluMux         |     1|
+|5     |  exemem_dp   |EXEMEM         |    69|
+|6     |  idexereg_dp |IDEXE          |    15|
+|7     |  ifidreg_dp  |IFID           |     9|
+|8     |  memwb_dp    |MEMWB          |    37|
+|9     |  pc_dp       |ProgramCounter |    46|
+|10    |  regrtmux_dp |RegrtMult      |     3|
+|11    |  rf_dp       |RegisterFile   |    28|
+|12    |  wb_mux_dp   |WbMux          |    32|
++------+--------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:20 . Memory (MB): peak = 1004.887 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1004.887 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 3 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1004.887 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE: 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1004.887 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Tyler/Documents/Lab5V3/Lab5V3.runs/synth_1/Datapath.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Datapath_utilization_synth.rpt -pb Datapath_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 30 16:18:55 2024...

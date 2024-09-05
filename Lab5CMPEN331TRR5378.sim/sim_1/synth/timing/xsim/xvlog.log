@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tyler/Vivado/VivadoLabs/LAB4Save9/LAB4Save9.sim/sim_1/synth/timing/xsim/TestBench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-311] analyzing module IDEXE
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tyler/Vivado/VivadoLabs/LAB4Save9/LAB4Save9.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench

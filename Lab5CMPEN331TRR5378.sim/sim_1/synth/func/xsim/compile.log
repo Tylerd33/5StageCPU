@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tyler/Documents/CMPEN331Lab3TylerRossi/CMPEN331Lab3TylerRossi.sim/sim_1/synth/func/xsim/TestBench_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-311] analyzing module IDEXE
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Tyler/Documents/CMPEN331Lab3TylerRossi/CMPEN331Lab3TylerRossi.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench
